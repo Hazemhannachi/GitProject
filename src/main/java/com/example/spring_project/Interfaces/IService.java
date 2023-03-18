@@ -1,4 +1,4 @@
-package com.example.spring_project.Services;
+package com.example.spring_project.Interfaces;
 
 import com.example.spring_project.Entities.Etudiant;
 
