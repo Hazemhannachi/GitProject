@@ -29,4 +29,11 @@ public class Contrat {
     @ManyToOne
     private Etudiant etudiant;
 
+    public int getIdContrat() {
+        return idContrat;
+    }
+
+    public void setIdContrat(int idContrat) {
+        this.idContrat = idContrat;
+    }
 }
