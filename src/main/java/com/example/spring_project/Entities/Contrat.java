@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.Objects;
 
 @Entity
 @AllArgsConstructor
@@ -31,6 +32,19 @@ public class Contrat {
 
     public int getIdContrat() {
         return idContrat;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Contrat contrat = (Contrat) o;
+        return idContrat == contrat.idContrat && archive == contrat.archive && montantContrat == contrat.montantContrat && Objects.equals(dateDebutContrat, contrat.dateDebutContrat) && Objects.equals(dateFinContrat, contrat.dateFinContrat) && specialite == contrat.specialite && Objects.equals(etudiant, contrat.etudiant);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(idContrat, dateDebutContrat, dateFinContrat, specialite, archive, montantContrat, etudiant);
     }
 
     public void setIdContrat(int idContrat) {
