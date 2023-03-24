@@ -35,4 +35,7 @@ public class ContratControllers {
     {
         c.remove(idContrat);
     }
+
+
+    
 }
