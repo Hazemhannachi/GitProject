@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;$
 @a
+aaaaaaaaaaaaaaaaaaaaaSS
 @RestController
 @RequestMapping("/contrat")
 public class ContratControllers {
