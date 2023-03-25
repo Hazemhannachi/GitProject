@@ -1,6 +1,7 @@
 package com.example.spring_project.Services;
 
 import com.example.spring_project.Entities.Etudiant;
+import com.example.spring_project.Interfaces.IService;
 import com.example.spring_project.Repositories.EtudiantRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -8,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class ServiceImp implements IService <Etudiant>{
+public class ServiceImp implements IService<Etudiant> {
     @Autowired
     EtudiantRepository etudiantRepository;
     @Override

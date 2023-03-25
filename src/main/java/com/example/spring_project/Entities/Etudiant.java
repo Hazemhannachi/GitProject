@@ -22,6 +22,8 @@ public class Etudiant {
     private String nomE ;
     @Enumerated(EnumType.STRING)
     private Option option;
+    private String noussa;
+    private String Aloulou;
 
     @OneToMany(mappedBy = "etudiant")
     @JsonIgnore
@@ -32,5 +34,6 @@ public class Etudiant {
     @ManyToMany (mappedBy = "etudiants")
     @JsonIgnore
     private List<Equipe> equipes ;
+
 
 }
