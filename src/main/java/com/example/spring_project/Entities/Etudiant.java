@@ -23,6 +23,7 @@ public class Etudiant {
     @Enumerated(EnumType.STRING)
     private Option option;
     private String noussa;
+    private String Aloulou;
 
     @OneToMany(mappedBy = "etudiant")
     @JsonIgnore
