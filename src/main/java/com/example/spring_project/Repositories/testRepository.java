@@ -5,5 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ContratRepository extends JpaRepository<Contrat, Integer> {
+public interface testRepository extends JpaRepository<Contrat, Integer> {
+        /* eya frhi */
 }

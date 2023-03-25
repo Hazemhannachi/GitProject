@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/contrat")
-public class ContratControllers {
+public class ContratControllers_V2 {
     @Autowired
     ContratService c;
     @GetMapping("/getall")
