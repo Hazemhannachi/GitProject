@@ -9,11 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/contrat")
-<<<<<<< HEAD
-public class test {
-=======
 public class ContratControllers {
->>>>>>> d5c64543e1b52b61ed2f19603342b82535a53d0b
     @Autowired
     ContratService c;
     @GetMapping("/getall")
