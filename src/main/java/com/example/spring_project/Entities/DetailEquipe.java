@@ -17,6 +17,7 @@ public class DetailEquipe {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idDetaiEquipe;
     private String thematique;
+    private String Math ;
 
     @OneToOne
     private Equipe equipe ;
