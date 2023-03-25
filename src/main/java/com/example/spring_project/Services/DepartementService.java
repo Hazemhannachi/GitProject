@@ -1,6 +1,7 @@
 package com.example.spring_project.Services;
 
 import com.example.spring_project.Entities.Departement;
+import com.example.spring_project.Interfaces.IService;
 import com.example.spring_project.Repositories.DepartementRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
