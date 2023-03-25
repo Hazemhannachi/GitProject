@@ -24,11 +24,7 @@ public class EquipeController {
     {
         return eq.update(e);
     }
-    @PostMapping("/add")
-    public  Equipe add (@RequestBody Equipe e)
-    {
-        return eq.add(e);
-    }
+    
     @GetMapping("/get/{id}")
     public Equipe retrieve(@PathVariable(value = "id") int idEquipe){
         return eq.retrieve(idEquipe);
