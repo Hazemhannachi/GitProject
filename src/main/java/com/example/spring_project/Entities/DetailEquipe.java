@@ -18,6 +18,7 @@ public class DetailEquipe {
     private int idDetaiEquipe;
     private String thematique;
     private String Math ;
+    private String ons ;
 
     @OneToOne
     private Equipe equipe ;
